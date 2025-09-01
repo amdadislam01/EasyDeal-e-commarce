@@ -1,5 +1,7 @@
 # 🛒 EasyDeal –  E-Commerce Website
 
+A sleek, responsive, and feature-rich **E-commerce Landing Page** built using **React**, **Tailwind CSS**, and **Framer Motion**. Ideal for showcasing products with smooth animations and a clean shopping interface.
+
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://easydeal-01.netlify.app/)  
 [![Source Code](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/EasyDeal-e-commarce)
 
