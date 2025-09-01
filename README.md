@@ -1,11 +1,8 @@
 # 🛒 EasyDeal – Modern E-Commerce Website
 
-![EasyDeal Banner](https://easydeal-01.netlify.app/assets/banner.png) <!-- এখানে চাইলে প্রজেক্টের স্ক্রিনশট বা লোগো বসাতে পারো -->
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://easydeal-01.netlify.app/)  
+[![Source Code](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/EasyDeal-e-commarce)
 
-## 📌 Overview
-**EasyDeal** হলো একটি আধুনিক ও রেসপন্সিভ ই-কমার্স ওয়েব অ্যাপ্লিকেশন যেখানে ব্যবহারকারীরা সহজে প্রোডাক্ট ব্রাউজ, সার্চ, ফিল্টার এবং অর্ডার করতে পারে। এতে রয়েছে **কার্ট সিস্টেম, চেকআউট ফ্লো, ইউজার অথেন্টিকেশন এবং আকর্ষণীয় UI ডিজাইন**।  
-
-🚀 Live Demo: [https://easydeal-01.netlify.app](https://easydeal-01.netlify.app)
 
 ---
 
