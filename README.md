@@ -30,7 +30,6 @@
 ---
 
 ## ⚡ Installation & Setup
-লোকাল মেশিনে প্রজেক্ট রান করতে নিচের ধাপগুলো অনুসরণ করো:
 
 ```bash
 # Clone the repository
