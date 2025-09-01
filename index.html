@@ -329,5 +329,79 @@
             </div>
         </div>
     </section>
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8">
+
+        <!-- Filter Section -->
+        <section class="mb-10 animate-fadeIn" style="animation-delay: 0.2s;">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 md:mb-0">Our Products</h2>
+                <div class="flex flex-wrap gap-4">
+                    <div class="relative">
+                        <select id="category-filter"
+                            class="appearance-none bg-white border border-gray-300 rounded-lg px-4 py-2 pr-8 cyan-focus focus:border-transparent smooth-transition">
+                            <option value="all">All Categories</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="home">Home & Kitchen</option>
+                            <option value="books">Books</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                            <i class="fas fa-chevron-down text-gray-500"></i>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <select id="price-filter"
+                            class="appearance-none bg-white border border-gray-300 rounded-lg px-4 py-2 pr-8 cyan-focus focus:border-transparent smooth-transition">
+                            <option value="all">All Prices</option>
+                            <option value="0-50">Under $50</option>
+                            <option value="50-100">$50 - $100</option>
+                            <option value="100-200">$100 - $200</option>
+                            <option value="200-500">$200 - $500</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                            <i class="fas fa-chevron-down text-gray-500"></i>
+                        </div>
+                    </div>
+                    <button id="reset-filters"
+                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-300 smooth-transition">
+                        Reset Filters
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="mb-12">
+            <div id="products-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Compare Tool Section -->
+        <section class="mb-12 bg-white rounded-xl shadow-md p-4 md:p-6 animate-fadeIn" style="animation-delay: 0.4s;">
+            <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4 md:mb-6">Product Comparison</h2>
+            <div class="flex flex-col">
+                <div class="flex flex-col md:flex-row gap-3 md:gap-4 mb-4">
+                    <select id="compare-product-1"
+                        class="flex-1 border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent smooth-transition">
+                        <option value="">Select first product to compare</option>
+                    </select>
+                    <select id="compare-product-2"
+                        class="flex-1 border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent smooth-transition">
+                        <option value="">Select second product to compare</option>
+                    </select>
+                    <button id="compare-btn"
+                        class="bg-cyan-600 text-white px-6 py-2 rounded-lg btn-cyan-hover btn-cyan-active smooth-transition md:w-auto w-full">
+                        Compare
+                    </button>
+                </div>
+                <div id="comparison-result"
+                    class="hidden bg-gray-50 rounded-lg p-4 md:p-6 border border-gray-200 overflow-x-auto">
+                    <!-- Comparison results will be shown here -->
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
