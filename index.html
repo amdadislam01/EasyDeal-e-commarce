@@ -519,5 +519,117 @@
             </div>
         </div>
     </div>
+    <!-- Checkout Modal -->
+    <div id="checkout-modal"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div
+            class="bg-white rounded-xl max-w-2xl w-full max-h-screen overflow-y-auto smooth-transition transform scale-95 opacity-0">
+            <div class="p-6">
+                <div class="flex justify-between items-start mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Checkout</h2>
+                    <button id="close-checkout" class="text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Shipping Information</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label class="block text-gray-700 mb-1">First Name</label>
+                            <input type="text"
+                                class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-1">Last Name</label>
+                            <input type="text"
+                                class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-1">Address</label>
+                        <input type="text"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div>
+                            <label class="block text-gray-700 mb-1">City</label>
+                            <input type="text"
+                                class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-1">State</label>
+                            <input type="text"
+                                class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-1">ZIP Code</label>
+                            <input type="text"
+                                class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-1">Phone Number</label>
+                        <input type="tel"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-2 cyan-focus focus:border-transparent">
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Payment Method</h3>
+                    <div class="space-y-3">
+                        <div
+                            class="flex items-center border border-gray-300 rounded-lg p-4 hover:border-cyan-500 smooth-transition">
+                            <input type="radio" name="payment" id="credit-card" class="mr-3" checked>
+                            <label for="credit-card" class="flex-1">
+                                <div class="flex justify-between items-center">
+                                    <span>Credit Card</span>
+                                    <div class="flex space-x-2">
+                                        <i class="fab fa-cc-visa text-2xl text-gray-600"></i>
+                                        <i class="fab fa-cc-mastercard text-2xl text-gray-600"></i>
+                                        <i class="fab fa-cc-amex text-2xl text-gray-600"></i>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div
+                            class="flex items-center border border-gray-300 rounded-lg p-4 hover:border-cyan-500 smooth-transition">
+                            <input type="radio" name="payment" id="paypal" class="mr-3">
+                            <label for="paypal" class="flex-1">
+                                <div class="flex justify-between items-center">
+                                    <span>PayPal</span>
+                                    <i class="fab fa-cc-paypal text-2xl text-gray-600"></i>
+                                </div>
+                            </label>
+                        </div>
+                        <div
+                            class="flex items-center border border-gray-300 rounded-lg p-4 hover:border-cyan-500 smooth-transition">
+                            <input type="radio" name="payment" id="cash-on-delivery" class="mr-3">
+                            <label for="cash-on-delivery" class="flex-1">Cash on Delivery</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-gray-200 pt-6 mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-gray-600">Subtotal</span>
+                        <span id="checkout-subtotal" class="font-medium">$0.00</span>
+                    </div>
+                    <div class="flex justify-between mb-2">
+                        <span class="text-gray-600">Shipping</span>
+                        <span class="font-medium">Free</span>
+                    </div>
+                    <div class="flex justify-between text-lg font-bold mb-6">
+                        <span>Total</span>
+                        <span id="checkout-total">$0.00</span>
+                    </div>
+                    <button id="place-order-btn"
+                        class="w-full bg-cyan-600 text-white py-3 rounded-lg btn-cyan-hover btn-cyan-active smooth-transition">
+                        Place Order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
