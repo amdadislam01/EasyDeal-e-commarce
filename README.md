@@ -18,11 +18,12 @@
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React.js / JavaScript  
-- **Styling:** Tailwind CSS  
-- **Backend (Future Plan):** Node.js + Express / Firebase  
-- **Authentication:** Firebase Auth (or JWT)  
-- **Deployment:** Netlify  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js" alt="Tech Stack" width="240" />
+  <br/>
+  <img src="https://img.shields.io/badge/Animation-FramerMotion-ff69b4?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+</p>
 
 ---
 
