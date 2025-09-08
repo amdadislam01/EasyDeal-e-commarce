@@ -20,7 +20,7 @@ EasyDeal is a modern e-commerce landing page designed to showcase products effec
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,netlify,github" alt="Tech Stack" width="340" />
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,netlify,github,git" alt="Tech Stack" width="340" />
   <br/>
   <img src="https://img.shields.io/badge/Animation-FramerMotion-ff69b4?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
 </p>
