@@ -1,4 +1,4 @@
-# 🛒 EasyDeal – E-Commerce Website
+# 🛒 EasyDeal – E-Commerce Websit
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://easydeal-01.netlify.app/)  
 
